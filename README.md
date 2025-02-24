@@ -32,7 +32,7 @@ This project focuses on implementing a face recognition system using OpenCV in P
 
 **4.  Real-Time Webcam Implementation**
 
--  Captures video from the default webcam (**cv2.VideoCapture(0)** - _for Local webcam_).
+-  Captures video from the default webcam (**cv2.VideoCapture(0)**, where **0** denotes the default system camera..
 
 -  Processes each frame with the detect function and displays results until the user presses q.
 
